@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background:#f7f7f7;
+}
+
+.padding{
+  height: 1.5%;
+  width: 100%;
+  background-color: #345e7d;
+}
+
+#top{
+  height: 9.5%;
+  background-color: #345e7d;
+  display: flex;
+  /* align-items: center; */
+}
+
+#main{
+  padding: 0px 40px;
+  height: 87.5%;
+}
+
+#top_left, #top_medium{
+  height: 100%;
+}
+
+#top_left{
+  height: 100%;
+  width: 22.5%;
+  text-align: right;
+}
+
+#top_medium{
+  width: 55%;
+  display: flex;
+  align-items: center;
+}
+
+#top_medium_medium{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+/* #top_medium img{
+  text-align: center;
+} */
+
+img{
+  height: 100%;
+}
+
+#left_arrow{
+  height: 100%;
+}
+
+#function_name{
+  height:20%;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+
+#function_1, #function_2, #function_3{
+  height:20%;
+  width: 100%;
+  background-color: #6da7cc;
+  color: white;
+  border-radius: 15px;
+  box-sizing: border-box;  /*寬高設定作用在邊框外緣的範圍內*/
+  /* padding: 2.5%; */
+  margin-bottom: 10%;
+  display: flex;
+  align-items: center;
+}
+
+#function_1 img, #function_2 img{
+  width: 40%;
+  height: 100%;
+}
+
+.left{
+  width: 45%;
+  height: 10  0%;
+  padding: 0% 2.5%;
+  text-align: center;
+}
+
+.left img{
+  height: auto;
+  width: 50%;
+}
+
+.right{
+  width: 45%;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  padding: 0% 2.5%;
+  background-color: 	#D2E9FF;
+  display: inline-flex;
+  align-items: center;
+}
+
+h1{
+  font-size: 34px;
+  margin: 0px;
+  color: #0d589d;
+  text-align: center;
+  /* height: 20%; */
+  width: 100%;
+}
+
+h2{
+  padding: 10px 0px;
+  margin: 0px;
+  background-color: #345e7d;
+  color: white;
+  border-radius: 15px 15px 0px 0px;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 60px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+h4{
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
+  padding: 5px 0px 0px 0px;
+  width: 100%;
+}
